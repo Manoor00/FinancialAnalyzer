@@ -1,0 +1,31 @@
+Headers_Main = Total_Assets, Total_Debt
+
+Headers_Total_Assets = Mutual_Funds, Bank, Retirement, Stocks, Others, Investment
+
+Headers_Mutual_Funds = Equity_Mutual_Funds, Debt_Mutual_Funds
+
+Headers_Bank = Bank_Bank, Liquid_Cash_Bank
+
+Data_Equity_Mutual_Funds = A6:B10
+
+Data_Debt_Mutual_Funds = C6:D10
+
+Data_Bank_Bank = F6:G8
+
+Data_Liquid_Cash_Bank = H6:I9
+
+Data_Retirement = J6:k8
+
+Data_Total_Debt = L6:M8
+
+Data_Stocks = A13:C20
+
+Data_Others = F13:H13
+
+Data_Investment = F17:H17
+
+Formula_Mutual_Funds = Equity_Mutual_Funds + Debt_Mutual_Funds
+
+Formula_Bank = Bank_Bank + Liquid_Cash_Bank
+
+Formula_Total_Assets =  Mutual_Funds + Bank + Retirement + Stocks + Others + Investment
