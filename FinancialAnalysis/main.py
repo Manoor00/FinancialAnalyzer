@@ -7,6 +7,7 @@ Created on Fri Dec  1 21:07:39 2017
 import dataExtractor_MC
 import MySqlWrapper
 #import mongo
+print "hello"
 
 
 obj = moneyControl()
